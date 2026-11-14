@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Student Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Idrisu Muhammed Mustapha</h1>
+        <h2>Cyber Security Student</h2>
+        <p>Welcome to my academy portfolio</p>
+
+    </header>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About Me</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#planner">Academic Planner</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <section id="home">
+
+        <h2>Welcome!</h2>
+		<img src="profile.jpg.jpg" alt="My profile Photo" class="profile-photo">
+
+        <h3>Hello, I am Idrisu Muhammed Mustapha</h3>
+
+        <p>I am a Cyber Security student passionate about technology, computer security, networking and ethical hacking.</p>
+
+    </section>
+
+    <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+
+        My name is Idrisu Muhammed Mustapha.
+
+        I am a Cyber Security student with an interest
+
+        in computer technology, network security,
+
+        ethical hacking and digital protection.
+
+    </p>
+
+    <p>
+
+        I enjoy learning new technologies, solving problems
+
+        and developing my knowledge of computer systems.
+
+        My goal is to become a skilled Cyber Security
+
+        professional and contribute to a safer digital world.
+
+    </p>
+
+    <h3>Academic Information</h3>
+
+    <table>
+
+        <tr>
+
+            <th>Information</th>
+
+            <th>Details</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Full Name</td>
+
+            <td>Idrisu Muhammed Mustapha</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Department</td>
+
+            <td>Cyber Security</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Institution</td>
+
+            <td>MIVA Open University</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Course</td>
+
+            <td>COS 106 - Introduction to Web Technologies</td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+<section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+
+            <h3>HTML</h3>
+
+            <p>Building web pages and website structures.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>CSS</h3>
+
+            <p>Designing attractive and responsive websites.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>JavaScript</h3>
+
+            <p>Creating interactive website features.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Computer Security</h3>
+
+            <p>Learning how to protect computer systems.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Networking</h3>
+
+            <p>Understanding computer networks and communication.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Problem Solving</h3>
+
+            <p>Developing logical and analytical thinking.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+
+            <h3>Student Portfolio Website</h3>
+
+            <p>
+
+                A responsive personal website developed
+
+                using HTML, CSS and JavaScript.
+
+            </p>
+
+            <p><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+			<img src="project1.jpg" alt="Student Portforlio Website" width="300">
+			<p>
+			    <a href="project1.jpg" target="_blank">View Project</a>
+				</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Academic Task Manager</h3>
+
+            <p>
+
+                An interactive task manager that helps
+
+                students organize and complete academic tasks.
+
+            </p>
+
+            <p><strong>Technology:</strong> JavaScript</p>
+			<img src="project2.jpg" alt="Academic Task Manager" width="300">
+			<p>
+			<a href="project2.jpg" target="_blank">View Project</a>
+			</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Cyber Security Learning</h3>
+
+            <p>
+
+                Developing knowledge of computer security,
+
+                networking and digital protection.
+
+            </p>
+
+            <p><strong>Area:</strong> Cyber Security</p>
+			<img src="projects3.jpg" alt="Cyber security Learning" width="300">
+			<p>
+			<a href="projects3.jpg" target="_blank">View Project</a> </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="planner">
+
+        <h2>Academic Planner</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter a task">
+
+        <button onclick="addTask()">Add Task</button>
+
+        <ul id="taskList"></ul>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+           <input type="text" id="name"
+		   placeholder="Your Name" required>
+		   
+		   <input type="email" id="email"
+		   placeholder="Your Email" required>
+			<input type="tel" id="phone"
+			placeholder="Your Phone Number" required>
+
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <p>My Student Portfolio | 2026</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
